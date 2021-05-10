@@ -1,0 +1,58 @@
+@import "../variables.scss";
+
+/** card component **/
+
+$cardSize: 200px;
+
+.card {
+  display: flex;
+  flex: 0 1 $cardSize;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5 * $baseUnit;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: $cardSize;
+  background: $colorCardBg;
+  border-radius: 50% 50% 0 0%;
+}
+
+.card-shadow {
+  position: absolute;
+  border-radius: 50% 50% 0 0%;
+  box-shadow: 0 0 1px 1px $colorCardShadow;
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  padding-top: 16px;
+  height: 110px;
+}
+
+.card-body {
+  position: relative;
+  margin-top: -70px;
+  text-align: center;
+}
+
+.card-headline {
+  margin: 0.6 * $baseUnit;
+  font-size: $sizeH5;
+  color: $colorFontHighlight;
+
+  &::first-line {
+    color: $colorFont;
+  }
+}
+
+.card-text {
+  font-style: italic;
+  color: $colorFontHighlight;
+}

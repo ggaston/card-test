@@ -1,0 +1,29 @@
+/** Card example **/
+
+@import "./css/variables";
+@import "./css/utilities";
+@import "./css/components/card";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+}
+
+//TODO: Move to _layout.scss
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient( to bottom, 
+      $colorCardBgLight , 
+      $colorCardBgDark 119px, 
+      $colorCardBorder 120px, 
+      $colorCardBg 121px
+      );
+}
