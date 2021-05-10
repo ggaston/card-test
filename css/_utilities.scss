@@ -1,6 +1,0 @@
-// Dismiss shadow color on white background */
-@supports (mix-blend-mode: hue) {
-  .is-blended {
-    mix-blend-mode: hue;
-  }
-}

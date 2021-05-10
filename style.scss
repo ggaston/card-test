@@ -1,7 +1,6 @@
 /** Card example **/
 
 @import "./css/variables";
-@import "./css/utilities";
 @import "./css/components/card";
 
 html, body {
@@ -21,9 +20,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   background: linear-gradient( to bottom, 
-      $colorCardBgLight , 
-      $colorCardBgDark 119px, 
-      $colorCardBorder 120px, 
-      $colorCardBg 121px
+      $color--yellow , 
+      $color--yellow-dark 119px, 
+      $color--yellow-darker 120px, 
+      $color--white 121px
       );
 }
