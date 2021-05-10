@@ -12,7 +12,7 @@ $cardSize: 200px;
   padding: 1.5 * $baseUnit;
 }
 
-.card-header {
+.card_header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -23,7 +23,7 @@ $cardSize: 200px;
   border-radius: 50% 50% 0 0%;
 }
 
-.card-shadow {
+.card_shadow {
   position: absolute;
   border-radius: 50% 50% 0 0%;
   box-shadow: 0 0 1px 1px $colorCardShadow;
@@ -31,18 +31,18 @@ $cardSize: 200px;
   height: 100%;
 }
 
-.card-img {
+.card_img {
   padding-top: 16px;
   height: 110px;
 }
 
-.card-body {
+.card_body {
   position: relative;
   margin-top: -70px;
   text-align: center;
 }
 
-.card-headline {
+.card_headline {
   margin: 0.6 * $baseUnit;
   font-size: $sizeH5;
   color: $colorFontHighlight;
@@ -52,7 +52,7 @@ $cardSize: 200px;
   }
 }
 
-.card-text {
+.card_text {
   font-style: italic;
   color: $colorFontHighlight;
 }
